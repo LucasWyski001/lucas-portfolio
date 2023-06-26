@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(img/background-img.png);
+    background-position: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* This section of css is for the nav bar which includes hover effects when hovering over links */
+header{
+    padding:20px;
+    color:white;
+    background-color: black;
+    width:100%;
+}
+header nav{
+    padding-top: 5px;
+    margin-right: 10px;
+    text-align: center;
+    width: 100%;
+}
+header nav ul{
+    list-style-type: none;
+}
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color:white;
+    text-align: center;
+}
+header nav ul li a:hover{
+    color:pink;
+    transition: 0.9s ease-in;
+}
+
+
+/* This section correlates to the abouyt me section */
+.about-me{
+    padding-top: 30px;
+}
+.about-me h2{
+    color:white;
+    border-bottom: 2px solid white;
+    text-align: center;
+}
+.about-me p{
+    padding-top: 50px;
+    width:100%;
+    text-align: center;
+    color:white
+}
+.portfolio-img{
+    height:300px;
+    border-radius: 100%;
+    padding-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+/* This section is for my work html */
+.my-work{
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 150px;
+}
+.my-work h2{
+    border-bottom: 2px solid whitesmoke;
+    color:white;
+}
+.work-images img{
+    flex-wrap: wrap;
+    padding: 10px 10px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px;
+    margin: 20px;
+    width:450px;
+    flex-wrap: wrap;
+    box-shadow: 4px 4px 4px white;
+}
+
+/* This section is where the contact section correlates on HTML, this also includes hover animation */
+.contact-me{
+    text-align: center;
+    flex-wrap: wrap;
+}
+.contact-me h2{
+    color: white;
+    text-align: center;
+    border-bottom: 2px solid white;
+}
+.contact-me ul li a{
+    text-decoration: none;
+    color:white;
+    flex-wrap: wrap;
+}
+.contact-me ul li a:hover{
+    color: pink;
+    transition: 0.5s ease-in;
+}
+.resume{
+    text-align: center;
+    flex-wrap: wrap;
+    padding-top: 90px;
+    color:white;
+}
+.resume h2{
+    color:white;
+    border-bottom: 2px solid white;
+    flex-wrap: wrap;
+}
+
+
+
+
+@media screen and (max-width: 600px){
+    .portfolio-img{
+        width:300px;
+        height:300px;
+        margin-top: 30px;
+        justify-content: center;
+    }
+    .work-images img{
+        width:300px;
+        height:300px;
+    }
+}
