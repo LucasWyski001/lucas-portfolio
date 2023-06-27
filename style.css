@@ -20,6 +20,7 @@ header h1{
     text-align: center;
     width:100%;
 }
+/*  */
 header h1:hover{
     transition: 0.3s;
     transform: rotate(180deg);
@@ -48,7 +49,7 @@ header nav ul li a:hover{
 }
 
 
-/* This section correlates to the abouyt me section */
+/* This section correlates to the about me section */
 .about-me{
     padding-top: 30px;
 }
@@ -72,7 +73,7 @@ header nav ul li a:hover{
     margin-right: auto;
     width: 300px;
 }
-/* This section is for my work html */
+/* This section is for my work html where animations take effect and adjusts to screen size */
 .my-work{
     text-align: center;
     margin-top: 50px;
@@ -142,7 +143,7 @@ header nav ul li a:hover{
     flex-wrap: wrap;
 }
 
-
+/* this affects the screen sizing when sizing down the screen */
 @media screen and (max-width: 992px) {
     .portfolio-img{
         width:450px;
