@@ -109,7 +109,7 @@ header nav ul li a:hover{
 .work-images img:hover{
     content: '';
     transition: 0.3s ease-in;
-    opacity: 0.5;
+    box-shadow: 4px 4px 4px 4px pink;
 }
 
 /* This section is where the contact section correlates on HTML, this also includes hover animation */
